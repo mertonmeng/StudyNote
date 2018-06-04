@@ -10,5 +10,4 @@ Math.Round function still retains the sign after rounding to zero.
 
 **Divide by zero situation**
 
-non-zero number / - 0.0 = -Infinity  
-non-zero number / 0.0 = Infinity
+- 0.0 != 0.0 in this situation. The sign will affect the final result.
